@@ -3,7 +3,7 @@
  *
  * */
 
-let onOpen = () => {
+let onOpen = (e) => {
   let ui = SpreadsheetApp.getUi();
 
   ui.createMenu("External Helper Menu")

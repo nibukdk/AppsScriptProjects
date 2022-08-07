@@ -8,11 +8,11 @@ const FORM_ID = "1Q6BOXO9TqnojaPf9OXxt5iJouIIWF8_HYCdD5d2-1Tg";
 // form url
 //https://docs.google.com/forms/d/1Q6BOXO9TqnojaPf9OXxt5iJouIIWF8_HYCdD5d2-1Tg/edit
 
-let getFormItems1 = () => {
-  const form = FormApp.openById(FORM_ID);
-  const formItems = form.getItems();
-  formItems.forEach((item) => console.log([item.getTitle(), item.getId()]));
-};
+// let getFormItems1 = () => {
+//   const form = FormApp.openById(FORM_ID);
+//   const formItems = form.getItems();
+//   formItems.forEach((item) => console.log([item.getTitle(), item.getId()]));
+// };
 
 /**
  *[ 'Name', 737249345 ]
